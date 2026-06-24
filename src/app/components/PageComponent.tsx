@@ -4,7 +4,7 @@ import { useState } from "react";
 import Header from "@/app/components/header";
 import Body from "@/app/components/body";
 function PageComponent() {
- const [showlogin , setShowLogin] = useState(true);
+ const [showlogin , setShowLogin] = useState(false);
  const [showNotes , setShowNotes] = useState(false);
  const [openNotification , setOpenNotifications] = useState(false);
   return (
