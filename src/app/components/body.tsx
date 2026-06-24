@@ -116,8 +116,8 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
 
     {/* Utility handlers and pages */}
     {classRoomOpen && (
-      <section className="fixed inset-0 flex items-start py-10 justify-center bg-black/50 z-10">
-        <div className=" h-auto max-h-[90vh] overflow-y-auto scroll-smooth scrollbar-none">
+      <section className="fixed inset-0 flex items-start py-2 justify-center bg-black/50 z-10">
+        <div className=" h-auto max-h-screen overflow-y-auto scroll-smooth scrollbar-none">
         <div className="flex items-center justify-between px-5 py-4 bg-linear-to-r from-emerald-500 to-green-600 rounded-t-2xl">
         {/* Header */}
         <div>
@@ -160,8 +160,8 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
       </section>
     )}
     {showResult && (
-      <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-5">
-        <div className="max-h-[90vh] w-3xl h-auto overflow-y-auto scroll-smooth scrollbar-none">
+      <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-2">
+        <div className="max-h-screen w-3xl h-auto overflow-y-auto scroll-smooth scrollbar-none">
 
            <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl overflow-y-auto scroll-smooth scrollbar-none">
 
@@ -179,8 +179,8 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
       </section>
     )}
     {practiceOpen && (
-     <section className="fixed inset-0 flex items-start py-10 justify-center bg-black/50 ">
-       <div className="max-h-[90vh] w-4xl h-auto overflow-y-auto scrollbar-thumb-card scrollbar-none">
+     <section className="fixed inset-0 flex items-start py-5 justify-center bg-black/50 ">
+       <div className="max-h-screen w-4xl h-auto overflow-y-auto scrollbar-thumb-card scrollbar-none">
 
          <div className="flex items-center justify-between px-5 py-4 bg-linear-to-r from-emerald-500 to-green-600 rounded-t-2xl">
 
@@ -342,7 +342,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
     )}
     {/* 2nd utility flow */}
       {subjectOpen && (
-  <section className="fixed inset-0 z-50 flex items-start py-10 justify-center bg-black/50 backdrop-blur-sm px-4">
+  <section className="fixed inset-0 z-50 flex items-start py-5 overflow-y-auto justify-center bg-black/50 backdrop-blur-sm px-4">
 
     {/* MODAL CONTAINER */}
     <div className="w-full max-w-2xl overflow-hidden rounded-3xl bg-white shadow-2xl animate-in fade-in zoom-in-95">
@@ -429,7 +429,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
 
    { showLogin  && (
     <section className="fixed inset-0 bg-black/50 flex items-center justify-center z-10">
-      <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+      <div className="fixed inset-0 flex items-start py-5 justify-center bg-black/40 backdrop-blur-sm p-2 md:p-4 h-auto max-h-screen overflow-y-auto flex-1">
   <div
     className="
       w-full 
@@ -476,7 +476,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
         setShowsignUp(true);
       }}
       >
-       <span> Don&apos;t have an Account? Create</span>
+       <span className="text-xs md:text-md"> Don&apos;t have an Account? Create</span>
       </Button>
     </div>
   </div>
@@ -492,7 +492,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    
   {showSignUp && (
     <section className="fixed inset-0 bg-black/50 flex items-center justify-center z-10">
-      <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm p-4">
+      <div className="fixed inset-0 flex items-start py-5 overflow-y-auto justify-center bg-black/40 backdrop-blur-sm max-h-screen p-2 md:p-4">
   <div
     className="
       w-full 
@@ -537,7 +537,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
         setShowsignUp(false);
         setShowLogin(true);
       }}>
-        Have an account already? Login.
+       <span className="text-xs md:text-sm"> Have an account already? Login.</span>
       </Button>
     </div>
   </div>
@@ -546,7 +546,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
   )}
   {showNotes && (
     <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-10">
-     <div className="max-h-[90vh] h-auto w-3xl">
+     <div className="max-h-screen h-auto w-3xl">
      <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl overflow-y-auto scroll-smooth scrollbar-none">
      <div className="flex flex-col">
       <h3 className="text-md md:text-xl text-white font-bold leading-relaxed"> Science Notes</h3>
@@ -562,7 +562,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    
       <>
       <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-10">
-     <div className="max-h-[90vh] h-auto w-3xl">
+     <div className="max-h-screen h-auto w-3xl">
      <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl overflow-y-auto scroll-smooth scrollbar-none">
      <div className="flex flex-col">
       <h3 className="text-md md:text-xl text-white font-bold leading-relaxed">Notification</h3>

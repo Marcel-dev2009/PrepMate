@@ -47,10 +47,10 @@ function Login({onSuccess}:ModalProps) {
 >
   {/* Header */}
   <div className="text-center space-y-2">
-    <h1 className="text-3xl font-bold text-white">
+    <h1 className=" text-md md:text-3xl font-bold text-white">
       Welcome Back
     </h1>
-    <p className="text-sm text-white/60">
+    <p className="text-xs md:text-sm text-white/60">
       Login to continue your CBT experience
     </p>
   </div>
