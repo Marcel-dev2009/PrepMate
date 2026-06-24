@@ -52,3 +52,6 @@ Click topic → activeTopic updates → find topic object → read pdf field →
   
 )}
 
+I have two idea in mind
+using state to control the done state 
+

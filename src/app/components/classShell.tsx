@@ -31,8 +31,9 @@ function Sidebar({
   topics: { id: string; title: string; done: boolean }[];
   activeTopic: string;
   setActiveTopic: (id: string) => void;
-}) {
-  const done = topics.filter((t) => t.done).length;
+}) 
+{; // This line says filter the array and get the number of those whose "done" fields are true
+  const done = topics.filter((t) => t.done).length
   const pct = Math.round((done / topics.length) * 100);
   return (
     <AnimatePresence initial={false}>
@@ -125,7 +126,22 @@ function Sidebar({
     </AnimatePresence>
   );
 }
-
+// Done button
+function ToggleButton({topics , activeTopic , OnToggle}:{topics:{id:string , done:boolean}[] , activeTopic:string , OnToggle:(id:string) => void}){
+//  const [done , setDone] = useState(false) 
+ /* 
+ Once I update the object property then I'll update it's UI state
+ */
+ const currentTopic = topics.find((t) => t.id === activeTopic);
+ if(!currentTopic) return null;
+ return(
+  <Button className="px-8 py-6 md:mt-5"
+               onClick={() => OnToggle(activeTopic)}
+               >
+            <p className="font-semibold">{currentTopic.done ? "Mark Incomplete" : "Finish"}</p>
+             </Button>
+ )
+}
 // ─── Header ───────────────────────────────────────────────────────────────────
 function Header({
   subject,
@@ -205,17 +221,12 @@ export default function ClassroomLayout({
 }) {
   const params = useParams();
   const subject = (params?.room as string) ?? "Subject"
-  const topics = subjectTopics[subject] ?? subjectTopics["default"];
-  // const [topicDone , setTopicDone] = useState<boolean>(false);
+  const [topics , setTopics] = useState(subjectTopics[subject] ?? subjectTopics["default"]);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [activeTopic, setActiveTopic] = useState(topics[0]?.id ?? "1");
-  /* 
-   const customFunction = () => {
-    const doneState = topics.forEach((t) => {
-      const done = t.done;
-      console.log(done);
-    });
-   } */
+  const handleToggle = (id:string) => {
+   setTopics((prev) => prev.map((t) => t.id === id ? {...t , done:!t.done} : t)) 
+  }
   // Auto-close sidebar on mobile
   useEffect(() => {
     const mq = window.matchMedia("(max-width: 767px)");
@@ -231,16 +242,6 @@ export default function ClassroomLayout({
    if (!currentTopic?.enabled || !pdfPath) {
   return <NotFound />
 }
-   const handleSetDone = () => {
-    const done = topics.find((t) => t.id === activeTopic)
-    let state = done?.done as boolean;
-     if(state === false){
-      state = true
-     }else if(state === true){
-      state = false
-     }
-    console.log(done?.done)
-   }
   return (
     <div className="flex flex-col h-screen bg-[#f7fdf7] overflow-hidden">
       {/* Header */}
@@ -296,11 +297,7 @@ export default function ClassroomLayout({
             <iframe src={pdfPath} className="w-full h-200 scroll-auto scrollbar-none"/>
             {children}
              <div className="" dir="rtl">
-               <Button className="px-8 py-6 md:mt-5"
-               onClick={handleSetDone}
-               >
-            <p className="font-semibold">Finish</p>
-             </Button>
+             <ToggleButton topics={topics} activeTopic={activeTopic} OnToggle={handleToggle}/>
              </div>
           </motion.div>
          

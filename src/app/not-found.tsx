@@ -15,7 +15,7 @@ export default function NotFound() {
         </h2>
 
         <p className="text-zinc-500 max-w-md">
-          PDF development under progress
+        Classroom and  PDF development under progress
         </p>
 
         <button

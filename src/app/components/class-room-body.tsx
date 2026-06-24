@@ -12,7 +12,7 @@ function ClassRoomBody() {
    if(!subject){
     toast.error("Please select a subject to open up a class")      
    }else{          
-     router.replace(`/classroom/${subject}`)     
+     router.push(`/classroom/${subject}`)     
    }       
   }        
   return (
