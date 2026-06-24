@@ -1,0 +1,606 @@
+ {
+ "English": [
+     
+   { "id": 1,
+    "instruction" : "Read the passage carefully and answer the questions that follow.",
+    "question": "In the dimly lit depths beyond the reach of sunlight, life in the ocean takes on\npeculiar forms. The deep sea squid, for instance, uses flashes of bioluminiscence\n not only to confuse predators but also signal potential mates. an essential adaptation in \nan environment where encounters with one own's kind are rare. In contrast, the\n leatherback sea turtle, tho not a deep sea dweller, traverses the entire oceans, \n guided by the earth's magnetic field to return to the very beach where it hatched decades earlier\n Marine eologists note that while some sea animals depend on highly specialized environments- \nsuch as coral reef or hydrothermal vents  others exhibit a remarkable capacity to adapt across\n varied habitats. This adaptability, however does not guarantee survival. Many species are \n threatend less by natural predators than by the indeirect consequences of human expansion: \n overfishing disrupts food chains, and plastic debris mistaken for prey, can fatally block disgestive tracts.\n Ironically, even the most remote ocean trenches, once thought immune to human influence, have shown\n traces of industrial pollutants. Such findings challange the assumption that distance equates to safety,\n underscoring the interconnectedness of all marine ecosystem. Scientists caution the loss of a single\n keystone species could trigger a cascade of ecological effects destablizing life far beyond the ocean itself.  \n The Passage implies that encounters between deep-sea squid are rare primarily because:",
+    "options": ["Predators have reduced their number significantly", "They live in an environment with limited visibility and sparse populations", "They migrate constantly to find food", "They are solitary by instinct"],
+    "answer": "They live in an environment with limited visibility and sparse populations"
+ },
+    {
+      "id": 2,
+    "instruction" :"Read the passage carefully and answer the questions that follow.",
+    "question": "What does the passage suggest about the leatherback turtle's navigation ability",
+    "options": ["It is inherited from their parents through direct teaching", "It relies on the earth's magnetic field for precise migration", "It depends entirely on a seasonal ocean currents", "It is more advanced than that of any other marine species"],
+    "answer": "It relies on the earth's magnetic field for precise migration"
+ } ,
+  
+    {"id" : 3,
+    "instruction" : "Read the passage carefully and answer the questions that follow.",
+    "question" : "The statement 'distance equates to safety' is challanged in the passage because ",
+    "options" : ["Industrial pollutants have been detected even in remote areas" , "Predators travel vast distances to find the prey" , "Remote regions are more vulnerable to storms and natural disasters" , "Migratory species often face danger in faraway waters"],
+    "answer" : "Industrial pollutants have been detected even in remote areas"     
+    },
+  
+    {"id" : 4,
+    "instruction" : "Read the passage carefully and answer the questions that follow.",
+    "question" : "The main constrast drawn in the first paragraph is between",
+    "options" : ["Animals that rely on sight and those that rely on sound " , "Deep sea species and migratory surface species " , "Species that use light for hunting and those that  use it for defense" , "Animals that live in groups and those that are solitary"],
+    "answer" : "Deep sea species and migratory surface species"     
+  
+    },
+    {"id" : 5,
+    "instruction" : "Read the passage carefully and answer the questions that follow.",
+    "question" : "The passage suggests that losing a keystone species could ",
+    "options" : ["Primarily affect only the immidiate habitat of that species" , "Have ecological consequences that extend beyond the ocean" , "ebe quickly remedied by the adaptation of other species" , "Affect only species with specialized feeding habits"],
+    "answer" : "Have ecological consequences that extend beyond the ocean"     
+  
+    },
+    {"id" : 6,
+    "instruction" : "choose the option suitable for the blank spaces _6_",
+    "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China , Russia , France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+    "options" : ["organs" , "branches" , "divisions" , "agencies"],
+    "answer" : "organs"     
+    },
+    { "id" : 7,
+    "instruction" : "choose the option suitable for the blank spaces _7_",
+    "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+    "options" : ["partial" , "primary" , "occasional" , "shared"],
+    "answer" : "primary"     
+    },
+    {
+      "id" : 8,
+      "instruction" : "choose the option suitable for the blank spaces _8_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["permanent members" , "founding members" , "senior members" , "executive members"],
+      "answer" : "permanent members"
+    },
+    {
+     "id" : 9,
+      "instruction" : "choose the option suitable for the blank spaces _9_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["block" , "cancel", "stop" , "reject"],
+      "answer" : "block" 
+    },
+    {
+     "id" : 10,
+     "instruction" :  "choose the option suitable for the blank spaces _10_", 
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["P5" , "Five Powers" , "Big Five" , "Great Nations"],
+      "answer" : "P5"
+    },
+    {
+      "id" : 11,
+      "instruction" : "choose the option suitable for the blank spaces _11_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" :["chosen" , "appointed" , "elected" , "nominated"],
+      "answer" : "elected"
+    },
+    {
+      "id" : 12,
+      "instruction" : "choose the option suitable for the blank spaces _12_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options":["rotational" , "regional" , "proportional" , "geographical"],
+      "answer" :"regional"
+    },
+    {
+      "id" : 13,
+      "instruction" : "choose the option suitable for the blank spaces _13_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["rotates" , "changes" , "shifts" , "circulates"],
+      "answer" : "rotates"
+    },
+    {
+      "id" : 14,
+      "instruction" : "choose the option suitable for the blank spaces _14_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["humanitarian" , "peacekeeping" , "sporting" , "economic"],
+      "answer" : "peacekeeping"
+    },
+    {
+      "id" : 15,
+      "instruction" : "choose the option suitable for the blank spaces _15_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["Article", "Part" , "Section" , "Chapter"],
+      "answer" : "Chapter"
+    },
+    {
+      "id" : 16,
+      "instruction" : "choose the option suitable for the blank spaces _16_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["non-binding" , "binding" , "flexible" , "advisory"],
+      "answer" : "binding"
+    },
+    {
+     "id" : 17,
+     "instruction" : "choose the option suitable for the blank spaces _17_",
+     "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+     "options" : ["vital" , "minor" , "slight" , "average"],
+     "answer" : "vital"
+    },
+    {
+      "id" : 18,
+      "instruction" : "choose the option suitable for the blank spaces _18_",
+      "question" : "The United Nations Security Council UNSC is one of the six principal _6_ of the United Nations, created in 1945 with the\n signing  of the US Charter. it carries the _7_ responsibility for maintaining international peace and security. The Council is\n composed of fifteen, five of which are _8_ and have enough power to _9_ any substantive resolution through the use of \ntheir veto. These Countries_ China,Russia,France , the United Kingdom and the United States_ are collectively known as the\n _10_.\n The remaining ten seats are filled by non-permanent members who are _11_ by the UN General Assembly for two year terms.\n These seats are allocated according to a _12_ represntation system to ensure fair distribution among regions.\n The presidency of the Council _13_ monthly among its members in alphabetical order of thier country names in English.\n The UNSC is empowered to impose sanctions, authorize _14_ missions and approve the use of military force  under_15_\n VII of the UN charter. It's decisions, called _16_ resolutions, are legally binding on all the UN member states.\n Despite its _17_ role in conflict resolution, the Council has often faced criticism for political_18_ caused by the veto power,\n which can delay urgent action in times of crisis ",
+      "options" : ["debates" , "alliances" , "deadlocks" , "rivalries"],
+      "answer" : "deadlocks"
+    },
+    {
+     "id" : 19,
+     "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+     "question" : "What is the primary setting of The Lekki Headmaster?",
+     "options" : ["Abuja" , "Lekki , Lagos" , "Kano" , "Enugu"],
+     "answer" : "Lekki , Lagos"
+    },
+    {
+      "id" : 20,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "Who is the protagonist of the novel?",
+       "options" : ["Mr. Alabi", "Mr.Ojo","Mr.Grabs","Mr. Bepo"],
+       "answer" : "Mr. Bepo"
+    },
+    {
+     "id" : 21,
+      "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+      "question" : "What is Mr. Bepo's Profession",
+      "options" : ["Doctor" , "Teacher" , "Headmaster" , "Engineer"],
+      "answer" : "Teacher"
+    },
+    {
+     "id" : 22,
+      "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+      "question" : "What is the main challange Mr. Bepo faces in the story?",
+      "options" : ["Financial difficulties" , "Resistance to educational reforms" , "Personal health issues", "Personal and family issues"],
+      "answer" : "Personal and family issues"
+    },
+    {
+      "id" : 23,
+      "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+      "question" : "Which theme is prominently explored in the novel",
+      "options" : ["Political corruption" , "Educational reform" , "Migration and identity" , "marriage"],
+      "answer" : "Migration and identity"
+    },
+    {
+      "id" : 24,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "Sola and her husband travel by what means from Manchester to London?",
+       "options" : ["by road" , "by airplane","by rail", "by sea"],
+       "answer" : "by rail"
+    },
+
+    {
+      "id" : 25,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "What did Mr. Bepo consider will make one make it in commercial transport business",
+       "options" : ["Trustworthiness of drivers" , "Quality of vehicles" , "Location of the business" , "The amount invested into it"],
+       "answer" : "Trustworthiness of drivers"
+    },
+    {
+      "id" : 26 ,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "What does Mr. Bepo refer to as new slavery",
+       "options" : ["Africans willingly going abroad" , "The continuation of slave trade in some regions" , "Africans selling themselves into physical labour" , "European domination of our economic system"],
+       "answer" : "Africans willingly going abroad"
+    },
+    {
+      "id" : 27 ,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "What is the name of the chemsitry teacher",
+       "options" : ["Miss Taiye Kareem" , "Mr. Obong Ukaku" , "Mr Funsho Daniels" , "Mr. Ope Wande"],
+       "answer" : "Mr. Obong Ukaku"
+    },
+    {
+      "id" : 28 ,
+       "instruction" : "The Questions are based on The Lekki Headmaster by Kabir Alabi Garba",
+       "question" : "What did Mr. Ogo claim would happen at the end if Mr. Bepo allowed him to perform rituals in his school",
+       "options" : ["There would be influx of pupils to the school" , "Bepo's competitors would no longer be heard of" , "There would be no death or tragic occurence" , "The school would make more profits"],
+       "answer" : "There would be influx of pupils to the school"
+    },
+    {
+      "id" : 29 ,
+       "instruction" : "For these questions choose the option opposite in meaning to the underlined phrase or word in italics",
+       "question" : "The man enjoy <i>esoteric</i> manipulations",
+       "options" : ["basic" , "duty" , "common" , "mystical"],
+       "answer" : "common"
+    },
+    {
+      "id" : 30 ,
+       "instruction" : "For these questions choose the option opposite in meaning to the underlined phrase or word in italics", 
+       "question" : "The first lady was <i>admired</i> for her philantropic efforts",
+       "options" : ["condemned" , "cherished" , "adored" , "loathed"],
+       "answer" : "loathed"
+    },
+    {
+      "id" : 31,
+      "instruction" : "For these questions choose the option opposite in meaning to the underlined phrase or word in italics",
+      "question" :"The man's argument <i>vitiates</i> the main point",
+      "options" :["strengthen","flaws" , "exemplifies" , "weakeans"],
+      "answer" : "strengthen"
+    },
+    {
+      "id" : 32,
+      "instruction" : "For these questions choose the option opposite in meaning to the underlined phrase or word in italics",
+      "question" :"Books are not expected to be <i>jumbled</i> in the library",
+      "options" :["numbered","listed" , "arranged" , "documented"],
+      "answer" : "arranged"
+    },
+    {
+      "id" : 33,
+      "instruction" : "For these questions choose the option opposite in meaning to the underlined phrase or word in italics",
+      "question" :"The diplomat's actions were <i>tactful</i> during the negotiation",
+      "options" :["rude","impolite" , "clumsy" , "insensitive"],
+      "answer" : "insensitive"
+    },
+    {
+      "id" : 34,
+      "instruction" : "For these questions, select the option that best explains the meaning of the sentence",
+      "question" :"<q>After the minister's intervention the workers were paid on a nail</q>",
+      "options" :["The workers were given a table payment","The workers got a special bonus" , "The workers were paid without delay" , "The workers stood on the nail to be paid "],
+      "answer" : "The workers were paid without delay"
+    },
+    {
+      "id" : 35,
+      "instruction" : "For these questions, select the option that best explains the meaning of the sentence",
+      "question" :"<q>When Tunde was accused, his friend decided to play the devil's advocate</q>",
+      "options" :["He accused Tunde even more" , "He defended Tunde without evidence" , "He argued the opposite side for the sake of discussion" , "He called the police immediately"],
+      "answer" : "He argued the opposite side for the sake of discussion"
+    },
+    {
+      "id" : 36,
+      "instruction" : "For these questions, select the option that best explains the meaning of the sentence",
+      "question" :"<q>Although the governor's promises sounded good, many saw it as a pie in the sky.</q>",
+      "options" :["A realistic plan that can be acheived soon","An attractive but unrealistic idea" , "A gift from a generous leader" , "An unexpected blessing "],
+      "answer" : "An attractive but unrealistic idea"
+    },
+    {
+      "id" : 37,
+      "instruction" : "For these questions, select the option that best explains the meaning of the sentence",
+      "question" :"<q>The chairman decided to draw a line under the issue after months of fruitless discussions</q>",
+      "options" :["To forget the matter and move on","To sign a contract about the issue" , "To underline the important points" , "To start fresh discussions"],
+      "answer" : "To forget the matter and move on"
+    },
+    {
+      "id" : 38,
+      "instruction" : "For these questions, select the option that best explains the meaning of the sentence",
+      "question" :"<q>Despite the evidence he chose to stick to his guns</q>",
+      "options" :["To continue to use fireams","To stubbornly maintain one's postion" , "To surrender under pressure " , "To seek safety in numbers"],
+      "answer" : "To stubbornly maintain one's postion"
+    },
+     {
+      "id" : 39,
+      "instruction" : "For these questions, choose the option nearest in meaning to the underlined phrase or word in italics",
+      "question" :"The scientist offered a <i>plausible<i/> explanation for the unusual result",
+      "options" :["Believable","correct" , "Strange" , "Fake"],
+      "answer" : "Believable"
+    },
+    {
+      "id" : 40,
+      "instruction" : "For these questions, choose the option nearest in meaning to the underlined phrase or word in italics",
+      "question" :"Her account of the event was <i>fastidious<i/>, down to the smallest detail",
+      "options" :["Meticulous","fussy" , "Careless" , "Thorough but careless"],
+      "answer" : "Meticulous"
+    },
+     {
+      "id" : 41,
+      "instruction" : "For these questions, choose the option nearest in meaning to the underlined phrase or word in italics",
+      "question" :"Her comments were so <i>trenchant<i/> that the audience fell silent",
+      "options" :["Sharp and Penetrating","Offensive" , "Harsh" , "Clear"],
+      "answer" : "Sharp and Penetrating"
+    },
+    {
+      "id" : 42,
+      "instruction" : "For these questions, choose the option nearest in meaning to the underlined phrase or word in italics",
+      "question" :"the judge's <i>perfunctory<i/> review of the case raised concerns",
+      "options" :["Suparficial and Hasty","Detailed" , "Honest" , "Quick but careful"],
+      "answer" : "Suparficial and Hasty"
+    },
+     {
+      "id" : 43,
+      "instruction" : "For these questions, choose the option nearest in meaning to the underlined phrase or word in italics",
+      "question" :"The scientist offered a <i>laconic<i/> summary of her findings",
+      "options" :["Brief and to the point","Complex" , "Emotional" , "Elaborate"],
+      "answer" : "Brief and to the point"
+    },
+    {
+      "id" : 44,
+      "instruction" : "In each of the questions, the word in capital letter has the emphatic stress. choose the option to which the sentence relates",
+      "question" :"He returned the BOOK to the library",
+      "options" :["Did he return the pen to the library","Did he return the book to the school" , "Did she return the book to the library" , "Did he take the book from the library"],
+      "answer" : "Did he return the pen to the library"
+    },
+     {
+      "id" : 45,
+      "instruction" : "In each of the questions, the word in capital letter has the emphatic stress. choose the option to which the sentence relates",
+      "question" :"The shipment ARRIVED earlier than expected",
+      "options" :["Did the shipment depart earlier than expected","Did the shipment arrive later than expected" , "Did the passangers arrive earlier than expected" , "Did the shipment arrive earlier than planned"],
+      "answer" : "Did the shipment depart earlier than expected"
+    },
+ {
+      "id" : 46,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"The chairman assured us that the policy would benefit ______ the employees  _____ community at large ",
+      "options" :["not only ... but also","not also ... and also" , "not only ... but" , "not only ... as well as"],
+      "answer" : "not only ... but also"
+    },
+  {
+      "id" : 47,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"Had she _____ about the delay, we would have made the alternative arrangments.",
+      "options" :["been informed","inform" , "informing" , "have informed"],
+      "answer" : "been informed"
+    },
+     {
+      "id" : 48,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"The director demanded that every candidate _____ present at the meeting",
+      "options" :["be","is" , "was" , "were"],
+      "answer" : "be"
+    },
+     {
+      "id" : 49,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"Hardly _____ the minister finish his speech ____ the protest erupted",
+      "options" :["had ... when","has ... than" , "did ... that" , "had ... than"],
+      "answer" : "had ... when"
+    },
+       {
+      "id" : 50,
+      "instruction" :"In each of the questions, choose the option that best completes the gap",
+      "question" :"The scientist presented a proposal that could lead to ______",
+      "options" :["sustainable agricultural development","agriculture sustainable development" , "sustainable development agricultural" , "development agriculture sustainable"],
+      "answer" : "sustainable agricultural development"
+    },
+      {
+      "id" : 51,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"For centuries, the palace had been the _____ of  political power in the kingdom",
+      "options" :["seat","throne" , "capital" , "headquaters"],
+      "answer" : "seat"
+    },
+     {
+      "id" : 52,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"The scientist's ground breaking research was one of the most important ____ in medical history",
+      "options" :["discoveries","inventions" , "innovations" , "findings"],
+      "answer" : "discoveries"
+    },
+     {
+      "id" : 53,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"Many companies try to _____ tax regulations without technically breaking them",
+      "options" :["circumvent","circumspect" , "debase" , "condone"],
+      "answer" : "circumvent"
+    },
+   {
+      "id" : 54,
+      "instruction" : "In each of the questions, choose the option that best completes the gap",
+      "question" :"Your parents live in Aubja, ______?",
+      "options" :["do they","don't they" , "are they" , "didn't they"],
+      "answer" : "don't they"
+    },
+    {
+      "id" : 55,
+      "instruction" : "In this question, choose the most appropriate stress pattern from the options provided. the stress syllables are writeen in capital letters",
+      "question" :"phenomenon",
+      "options" :["PHEnomenon","pheNOmenon" , "phenoMEnon" , "phenomenON"],
+      "answer" : "pheNOmenon"
+    },
+   {
+      "id" : 56,
+      "instruction" : "For this question choose the option that rhymes with the given word",
+      "question" :"SLEIGH",
+      "options" :["play","sleet" , "slay" , "lay"],
+      "answer" : "slay"
+    },
+    {
+      "id" : 57,
+      "instruction" : "choose the word that has the same consonant sound as the ones represented by the letter(s) underlined",
+      "question" :"Vi<u>s</u>on",
+      "options" :["nation","leisure" , "session" , "mission"],
+      "answer" : "leisure"
+    },
+   {
+      "id" : 58,
+      "instruction" : "choose the word that has the same consonant sound as the ones represented by the letter(s) underlined",
+      "question" :"Su<u>b</u>tle",
+      "options" :["doubt","climb" , "debt" , "all of the above"],
+      "answer" : "all of the above"
+    },
+    {
+      "id" : 59,
+      "instruction" : "choose the word that has the same vowel sound as the ones represented by the letter(s) underlined",
+      "question" :"F<u>ea</u>r",
+      "options" :["tear:[rip:(verb)]" , "tear:(noun:drop from the eye)" , "pear" , "bear"],
+      "answer" : "tear:(noun:drop from the eye)"
+    },
+   {
+      "id" : 60,
+      "instruction" : "choose the word that has the same vowel sound as the ones represented by the letter(s) underlined",
+      "question" :"M<u>oo</u>n",
+      "options" :["some" , "blood" , "flood" , "boot"],
+      "answer" : "boot"
+    }
+],
+"Mathematics" : [
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 2,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 3,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Biology" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 2,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 3,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Further_Mathematics" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 2,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 3,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Civic_Education" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Chemistry" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Physics" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+],
+"Computer_Science" : [
+  {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  },
+ {
+  "id" : 1,
+  "instruction" : "Just Solve buv",
+  "question" : "2 + 2",
+  "word" : "jumbled",
+   "options" : ["1" , "2" , "3" , "4"],
+   "answer" : "4"
+  }
+]
+}
