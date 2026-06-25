@@ -12,9 +12,9 @@ import { IoMdGlobe } from "react-icons/io";
 interface subjects {
  id : string,
  subject: string,
- logo? : IconType,
- fill?: string,
- bg?:string,
+ logo : IconType,
+ fill: string,
+ bg:string,
 }
 export const items = [
   "English",
@@ -26,7 +26,7 @@ export const items = [
   "Physics",
   "Computer_Science" 
 ]
-export const ProfileSubjects:subjects[] = [
+export const ProfileSubjects:{id:string , subject:string}[] = [
   { id:"1",  subject:"English"},
   { id:"2",  subject:"Mathematics"},
   { id:"3",  subject:"Physics"},
