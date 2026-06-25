@@ -7,7 +7,6 @@ interface LiftProps {
   setShowNotes: React.Dispatch<React.SetStateAction<boolean>>;
   setOpenNotifications: React.Dispatch<React.SetStateAction<boolean>>;
 } 
-
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { SiGoogleclassroom } from "react-icons/si";
 import { CgNotes } from "react-icons/cg";
