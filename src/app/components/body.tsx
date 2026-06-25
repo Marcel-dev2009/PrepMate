@@ -123,7 +123,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
     {/* Utility handlers and pages */}
     {classRoomOpen && (
       <section className="fixed inset-0 flex items-start py-2 justify-center bg-black/50 z-10">
-        <div className=" h-auto max-h-screen overflow-y-auto scroll-smooth scrollbar-none">
+        <div className=" h-auto max-h-screen overflow-y-auto scroll-smooth scrollbar-none px-2">
         <div className="flex items-center justify-between px-5 py-4 bg-linear-to-r from-emerald-500 to-green-600 rounded-t-2xl">
         {/* Header */}
         <div>
@@ -185,8 +185,8 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
       </section>
     )}
     {practiceOpen && (
-     <section className="fixed inset-0 flex items-start py-5 justify-center bg-black/50 ">
-       <div className="max-h-screen w-4xl h-auto overflow-y-auto scrollbar-thumb-card scrollbar-none">
+     <section className="fixed inset-0 flex items-start py-2 justify-center bg-black/50 ">
+       <div className="max-h-screen w-4xl h-auto overflow-y-auto px-2  scrollbar-none"> {/* Here */}
 
          <div className="flex items-center justify-between px-5 py-4 bg-linear-to-r from-emerald-500 to-green-600 rounded-t-2xl">
 
@@ -225,7 +225,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
            <div className="w-full max-w-md mx-auto rounded-2xl bg-white shadow-xl border border-black/5 p-6">
 
   {/* SUBJECT SECTION */}
-  <div className="flex items-center justify-between pb-5 border-b border-black/10">
+  <div className=" mb-1 mt-1 px-2 flex-1 flex items-center justify-between pb-5 border-b border-black/10">
     
     <div className="flex items-center gap-4">
       <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center">
@@ -287,7 +287,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
           <div className="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl border border-black/5 p-6">
 
   {/* HEADER */}
-  <div className="mb-5">
+  <div className="mb-5 mt-2">
     <h2 className="text-2xl font-bold text-black">
       Instructions
     </h2>

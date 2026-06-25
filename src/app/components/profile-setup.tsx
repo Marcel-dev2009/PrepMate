@@ -7,9 +7,8 @@ interface Props {
 }
 import { GraduationCap , Trash2Icon , SaveIcon , User2Icon , UploadIcon} from "lucide-react";
 import dynamic from "next/dynamic";
-import { api } from "@/lib/api";
 import { useState , useRef, ChangeEvent, useEffect } from "react";
-import { Subjects } from "@/lib/data";
+import { ProfileSubjects, Subjects } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 const SpinnerLoader = dynamic(() => import("@/app/components/spinnerLoader"));
@@ -20,13 +19,17 @@ function ProfileSetUp({onComplete}:Props) {
   const [grade , setGrade] = useState<string>("")
   const [school , setSchool] = useState<string>("")
   const [selectedSubject , setSelectedSubject] = useState<string[]>([]);
+  const subjects = ProfileSubjects
   const dummyHandleSubmit = () => {
     if(!grade){
       toast.error("Please Input your grade")
+      return
     } else if(!school){
       toast.error("Please Input your school name")
+      return
     } else if(!selectedSubject){
       toast.error("Please select your core subjects")
+      return
     };
     toast.success("user profile saved")
     setLoading(false);
@@ -54,8 +57,8 @@ function ProfileSetUp({onComplete}:Props) {
     setSelectedSubject((prev) => prev.includes(id) ? prev.filter((g) => g !== id) : prev.length < 5 ? [...prev , id] : prev); 
   }
   return (
-   <section className="fixed inset-0 bg-black/50 z-10 flex items-center justify-center">
-      <div className="w-full max-w-2xl bg-linear-to-r from-white/10 to-green-800/85 backdrop-blur-sm p-5  h-auto  rounded-md shadow-lg leading-relaxed">
+   <section className="fixed inset-0 bg-black/50 z-10 flex items-center justify-center overflow-y-auto">
+      <div className="w-full max-w-2xl bg-linear-to-r from-white/10 to-green-800/85 backdrop-blur-sm md:p-5  h-auto  rounded-md shadow-lg leading-relaxed px-4 py-2">
          <div className="flex justify-between p-4">
         <div className="flex gap-2">
            <span className="border border-green-400 rounded-md bg-green-800/20 backdrop-blur-sm p-2"><GraduationCap color="#90EE90"/></span>
@@ -145,7 +148,7 @@ function ProfileSetUp({onComplete}:Props) {
         )}
           <div className="flex-1 border-t opacity-20 m-2 border-gray-400"></div> {/* Breaker line */}
           {/* Input data class/schoolName */}
-          <div className="flex justify-evenly">
+          <div className="flex flex-col md:flex-row  gap-4 justify-evenly">
            <div className="flex flex-col">
             <label htmlFor="class" className="text-background/85 font-stretch-condensed font-bold text-md">CLASS</label>
             <input type="text" onChange={(e) => setGrade(e.target.value)} placeholder="e.g SS3, Year 12" className="border border-white/50 bg-stone-900/50 px-8 rounded-md py-2 placeholder:text-neutral-300/50 placeholder:font-semibold text-white/65 outline-0"/>
@@ -158,12 +161,11 @@ function ProfileSetUp({onComplete}:Props) {
          {/* </div> Container div */}
          <div>
            <div className="flex mt-2 ml-9">
-            <h3 className="text-md font-semibold font-stretch-condensed text-white">CORE SUBJECTS</h3>
-            <p className="text-sm mt-1 font-semibold text-white/50">-select 5 to 12</p>
+            <h3 className="text-md font-semibold font-stretch-condensed text-white">CORE SUBJECTS</h3> 
+            <p className="text-sm mt-1 font-light text-white/50 ml-1">select 5 to 12</p>
            </div>
           <div className="grid grid-cols-3 gap-2 py-2">
-            
-             {Subjects.map((s) => {
+             {subjects.map((s) => {
             const sel = selectedSubject.includes(s.id)
             return (
               <>
@@ -179,7 +181,7 @@ function ProfileSetUp({onComplete}:Props) {
                 
               >
               <div>
-                <p>{s.subject}</p>
+                <p className="text-xs">{s.subject}</p>
               </div>
               </Button>
             

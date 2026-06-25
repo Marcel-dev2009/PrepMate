@@ -12,9 +12,9 @@ import { IoMdGlobe } from "react-icons/io";
 interface subjects {
  id : string,
  subject: string,
- logo : IconType,
- fill : string,
- bg :string,
+ logo? : IconType,
+ fill?: string,
+ bg?:string,
 }
 export const items = [
   "English",
@@ -25,6 +25,20 @@ export const items = [
   "Chemistry" ,
   "Physics",
   "Computer_Science" 
+]
+export const ProfileSubjects:subjects[] = [
+  { id:"1",  subject:"English"},
+  { id:"2",  subject:"Mathematics"},
+  { id:"3",  subject:"Physics"},
+  { id:"4",  subject:"Chemistry"},
+  { id:"5",  subject:"Biology"  },
+  { id:"6",  subject:"Geography"},
+  { id:"7",  subject:"History"},
+  { id:"8",  subject:"Economics"},
+  { id:"9",  subject:"Government"},
+  { id:"10", subject:"Civic"},
+  { id:"11", subject:"Computer"},
+  { id:"12", subject:"F/Math"},
 ]
 export const Subjects: subjects[] = [
   { id:"1",  subject:"English",            logo: TbLanguage,          fill:"fill-blue-500",       bg:"bg-blue-100"    },
