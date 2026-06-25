@@ -35,7 +35,7 @@ export const api = {
       method: "POST",
     }),
 
-  saveProfile: (grade: string, school: string, profile: string) =>
+  profile: (grade: string, school: string, profile: string) =>
     request("/profile", {
       method: "POST",
       body: JSON.stringify({ grade, school, profile }),

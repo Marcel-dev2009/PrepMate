@@ -19,7 +19,7 @@ import { useRouter } from "next/navigation";
 import dynamic from "next/dynamic";
 import { IoMdClose } from "react-icons/io";
 import ButtonContainer from "./buttonHeader";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { GoHash } from "react-icons/go"; 
 import { toast } from "sonner";
@@ -43,6 +43,12 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
   const [showAnalysis , setShowAnalysis] = useState<boolean>(false);
   const [showResult , setShowResult] = useState<boolean>(false);
   const router = useRouter()
+ useEffect(() => {
+ const hasSeen = localStorage.getItem("seen");
+ if(!hasSeen){
+  setShowLogin(true)
+ }
+ },[])
  const openPractice = () => {
   if(!selected){
    setError("Select a subject to get started!!")
@@ -56,14 +62,14 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    style={{
     backgroundImage : "url('/bg.svg')"
    }}
-   className={ practiceOpen ? "blur-sm grid grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden" :  "grid grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden"}
+   className={ practiceOpen ? "blur-sm grid grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden" :  "grid grid-cols-1 md:grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden"}
    >
       <div className="sm:block md:hidden w-screen">
       <Slider/>
      </div>
 
-    <div className="mt-4 md:mt-8 absolute top-105 left-2 md:static md:ml-12"> 
-       <div className="space-x-3.5 space-y-1.5">
+    <div className="md:mt-8 p-2 md:px-4"> 
+       <div className=" flex justify-center items-center flex-col md:flex-row space-x-3.5 space-y-1.5">
         <ButtonContainer onClick={() => setpracticeOpen(!practiceOpen)} className="bg-blue-100
         group relative
         ">
@@ -90,7 +96,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
 
 
 
-       <div className="space-x-2.5 space-y-1.5">
+       <div className="  flex justify-center items-center flex-col md:flex-row space-x-2.5 space-y-1.5">
         <ButtonContainer className=" group mt-2 bg-gray-300 relative" onClick={() => setShowResult(!showResult)}>
           <CgNotes className="mx-auto" size="1.5rem"/>
         <p className="font-semibold text-gray-700">Result History</p>
@@ -455,7 +461,10 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
         <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
         Login / Sign Up
       </h1>
-       <Button className="rounded-full outline-0 bg-transparent" onClick={() => setShowLogin(false)}> {/* Toggle button */}
+       <Button className="rounded-full outline-0 bg-transparent" onClick={() => {
+        localStorage.setItem("seen" , "true");
+        setShowLogin(false);
+       }}> {/* Toggle button */}
         <IoMdClose/>
        </Button>
       </span>

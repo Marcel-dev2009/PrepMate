@@ -7,7 +7,7 @@ interface Props {
 }
 import { GraduationCap , Trash2Icon , SaveIcon , User2Icon , UploadIcon} from "lucide-react";
 import dynamic from "next/dynamic";
-// import { api } from "@/lib/api";
+import { api } from "@/lib/api";
 import { useState , useRef, ChangeEvent, useEffect } from "react";
 import { Subjects } from "@/lib/data";
 import { Button } from "@/components/ui/button";
@@ -19,7 +19,6 @@ function ProfileSetUp({onComplete}:Props) {
   const [loading , setLoading] = useState<boolean>(false);
   const [grade , setGrade] = useState<string>("")
   const [school , setSchool] = useState<string>("")
-  // const [test ,setTest] = useState<string>();
   const [selectedSubject , setSelectedSubject] = useState<string[]>([]);
   const dummyHandleSubmit = () => {
     if(!grade){
@@ -32,26 +31,6 @@ function ProfileSetUp({onComplete}:Props) {
     toast.success("user profile saved")
     setLoading(false);
   }
-/*   const handleProfileSubmit = async() => {
-   if(!grade){
-      toast.error("Please Input your grade")
-    } else if(!school){
-      toast.error("Please Input your school name")
-    } else if(!selectedSubject){
-      toast.error("Please select your core subjects")
-    } else if(!photoPreview){
-        toast.error("Please select your core subjects");
-    }
-    try{
-    setLoading(true);
-    await api.saveProfile(grade , school , photoPreview)
-    toast.success("user profile saved succesfully");
-    }catch(err:any){
-      toast.error(err.message || "Please Provide the required data");
-    } finally{
-      setLoading(false)
-    }
-  } */
   const handlePhoto = (e:ChangeEvent<HTMLInputElement>) => {
    const file = e.target.files?.[0];
    if(!file) return;
@@ -119,7 +98,10 @@ function ProfileSetUp({onComplete}:Props) {
               border-gray-400
               w-auto max-w-30
               "
-              onClick={() => setPhotoPreview("")}>
+              onClick={() => {
+               setPhotoPreview("") 
+               localStorage.removeItem("photo")
+              }}>
                 
                 <span className="flex gap-2"><Trash2Icon size={10} className="mt-1"/> <p className="text-sm font-semibold font-stretch-condensed text-gray-200/85">Remove Photo</p></span>
               </Button>
@@ -226,7 +208,6 @@ function ProfileSetUp({onComplete}:Props) {
           transition-all
       shadow-lg"
       onClick={() => {
-      // handleProfileSubmit();
       dummyHandleSubmit();
         onComplete();
       }}
