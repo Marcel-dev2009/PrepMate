@@ -54,7 +54,7 @@ function Header({setShowLogin , setShowNotes ,setOpenNotifications}:LiftProps ) 
 >
           <nav
         
-          className="bg-green-500/50 transition-all w-auto rounded-b-lg text-black/80 flex flex-col gap-5">
+          className="bg-green-500/50 transition-all w-auto text-black/80 flex flex-col gap-5">
             <Button variant="ghost"className="flex text-sm font-semibold ml-2 py-2" onClick={() => setShowNotes(true)}>
               <NotebookPen className="" size={24} fill="#fff"/> Science Notes
             </Button>

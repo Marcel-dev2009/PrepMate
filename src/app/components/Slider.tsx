@@ -11,7 +11,7 @@ function Slider() {
  const result = "https://res.cloudinary.com/dfsrso3jk/video/upload/q_auto,f_auto/v1779494778/Taking_notes_gbig1p.mp4"
  const classroom = "https://res.cloudinary.com/dfsrso3jk/video/upload/q_auto,f_auto/v1779494778/Kids_Studying_from_Home_f4x9vo.mp4"
  const analysis = "https://res.cloudinary.com/dfsrso3jk/video/upload/q_auto,f_auto/v1779494779/Mathematics_c2pc1k.mp4"
- const practice = "https://res.cloudinary.com/dfsrso3jk/video/upload/q_auto,f_auto/v1779494778/Webinar_erm91p.mp4"        
+ const practice = "https://res.cloudinary.com/dfsrso3jk/video/upload/q_auto,f_auto/v1779494778/Webinar_erm91p.mp4"      
   return (
      <>
       <Swiper
@@ -27,10 +27,10 @@ function Slider() {
           clickable: true,
         }}  */
         modules={[EffectFade, Autoplay, Pagination]}
-        className="mySwiper"
+        className="mySwiper mb-2 md:mt-5 px-4"
       >
   <SwiperSlide>
-  <div className="relative w-full md:w-4/5 md:mt-5">
+  <div className="relative flex flex-1 w-auto max-w-screen md:max-w-md md:mt-5">
 
     <video
       autoPlay
@@ -41,7 +41,7 @@ function Slider() {
     />
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/20 rounded-sm" />
+    <div className="absolute inset-0 bg-black/20 rounded-0 md:rounded-sm "/>
 
     {/* Text Content */}
     <div className="absolute bottom-6 left-6 z-10 max-w-sm">
@@ -59,7 +59,7 @@ function Slider() {
 </SwiperSlide>
 
   <SwiperSlide>
-  <div className="relative w-full md:w-4/5 mt-5">
+  <div className="relative w-auto max-w-screen md:max-w-md md:mt-5">
 
     <video
       autoPlay
@@ -70,7 +70,7 @@ function Slider() {
     />
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/20 rounded-sm" />
+    <div className="absolute inset-0 bg-black/20 rounded-0 md:rounded-sm" />
 
     {/* Text Content */}
     <div className="absolute bottom-6 left-6 z-10 max-w-sm">
@@ -90,7 +90,7 @@ function Slider() {
 </SwiperSlide>
 
   <SwiperSlide>
-  <div className="relative w-full md:w-4/5 mt-5">
+  <div className="relative w-auto max-w-screen md:max-w-md md:mt-5">
 
     <video
       autoPlay
@@ -101,7 +101,7 @@ function Slider() {
     />
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/20 rounded-sm" />
+    <div className="absolute inset-0 bg-black/20 rounded-0 md:rounded-sm" />
 
     {/* Text Content */}
     <div className="absolute bottom-6 left-6 z-10 max-w-sm">
@@ -110,7 +110,7 @@ function Slider() {
         Analyize your Past Performances 
       </h2>
 
-      <p className="mt-2 text-sm text-black/80">
+      <p className="relative w-auto max-w-screen md:max-w-md md:mt-5 px-4">
         Evaluate your performance and see areas to improve on
       </p>
     </div>
@@ -118,7 +118,7 @@ function Slider() {
   </div>
 </SwiperSlide>
   <SwiperSlide>
-  <div className="relative w-full md:w-4/5 mt-5">
+  <div className="relative w-auto max-w-screen md:max-w-md md:mt-5">
 
     <video
       autoPlay
@@ -129,7 +129,7 @@ function Slider() {
     />
 
     {/* Overlay */}
-    <div className="absolute inset-0 bg-black/20 rounded-sm" />
+    <div className="absolute inset-0 bg-black/20 rounded-0 md:rounded-sm" />
 
     {/* Text Content */}
     <div className="absolute bottom-6 left-6 z-10 max-w-sm">

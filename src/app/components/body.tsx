@@ -61,13 +61,13 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    style={{
     backgroundImage : "url('/bg.svg')"
    }}
-   className={ practiceOpen ? "blur-sm grid grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden" :  "grid grid-cols-1 md:grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden"}
+   className={ practiceOpen ? "blur-sm grid grid-cols-2 bg-cover bg-center bg-no-repeat overflow-hidden" :  "grid grid-cols-1 md:grid-cols-2 bg-cover md:ml-18 bg-center bg-no-repeat overflow-hidden"}
    >
       <div className="sm:block md:hidden w-screen">
       <Slider/>
      </div>
 
-    <div className="md:mt-8 p-2 md:px-4"> 
+      <div className="md:mt-8"> 
        <div className=" flex justify-center items-center flex-col md:flex-row space-x-3.5 space-y-1.5">
         <ButtonContainer onClick={() => setpracticeOpen(!practiceOpen)} className="bg-blue-100
         group relative
@@ -116,6 +116,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    <div className="ml-12 hidden md:block">
       <Slider/> {/* Slider */}
      </div>
+    
 
    </main>
 

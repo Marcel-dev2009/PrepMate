@@ -30,7 +30,7 @@ function ButtonContainer({className ,  children , onClick} : Buttonprops) {
     onClick={onClick}
     onMouseEnter={handleEnter}
     onMouseLeave={handleLeave}
-    type="button" className={`${className}  h-54 w-76 shadow-lg rounded-md mx-auto cursor-pointer`}>
+    type="button" className={`${className}  h-54 w-full max-w-76 shadow-lg rounded-md mx-auto cursor-pointer`}>
      {children}
     </button>
   )
