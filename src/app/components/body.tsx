@@ -151,7 +151,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
     )};
     {showAnalysis && (
       <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-10">
-        <div className="max-h[90vh] w-3xl h-auto">
+        <div className="max-h[90vh] w-3xl h-auto px-4">
            <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl">
        <div className="flex flex-col gap-2">
           <h2 className="font-bold text-white text-md md:text-lg tracking-widset leading-snug">Performace Analysis</h2>
@@ -222,7 +222,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
           </div>
           <div>
            {checkedSubject && (
-           <div className="w-full max-w-md mx-auto rounded-2xl bg-white shadow-xl border border-black/5 p-6">
+           <div className="w-full max-w-md mx-auto rounded-2xl bg-white shadow-xl border mt-4 border-black/5 p-6">
 
   {/* SUBJECT SECTION */}
   <div className=" mb-1 mt-1 px-2 flex-1 flex items-center justify-between pb-5 border-b border-black/10">
@@ -284,7 +284,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
             </div>
            )}
           </div>
-          <div className="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl border border-black/5 p-6">
+          <div className="w-full max-w-md mx-auto bg-white rounded-2xl shadow-xl border border-black/5 p-6 mt-4">
 
   {/* HEADER */}
   <div className="mb-5 mt-2">
@@ -555,7 +555,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
   )}
   {showNotes && (
     <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-10">
-     <div className="max-h-screen h-auto w-3xl">
+     <div className="max-h-screen h-auto w-3xl px-4">
      <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl overflow-y-auto scroll-smooth scrollbar-none">
      <div className="flex flex-col">
       <h3 className="text-md md:text-xl text-white font-bold leading-relaxed"> Science Notes</h3>
@@ -571,7 +571,7 @@ function Body({showLogin , setShowLogin , showNotes , setShowNotes , openNotific
    
       <>
       <section className="fixed inset-0 bg-black/50 z-10 flex justify-center items-start py-10">
-     <div className="max-h-screen h-auto w-3xl">
+     <div className="max-h-screen h-auto w-3xl px-4">
      <div className="flex justify-between bg-linear-to-r px-5 py-4 from-emerald-500 to-green-600 rounded-t-2xl overflow-y-auto scroll-smooth scrollbar-none">
      <div className="flex flex-col">
       <h3 className="text-md md:text-xl text-white font-bold leading-relaxed">Notification</h3>
