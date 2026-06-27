@@ -26,6 +26,7 @@ export const items = [
   "Physics",
   "Computer_Science" 
 ]
+
 export const ProfileSubjects:{id:string , subject:string}[] = [
   { id:"1",  subject:"English"},
   { id:"2",  subject:"Mathematics"},

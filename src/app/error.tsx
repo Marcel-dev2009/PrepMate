@@ -19,9 +19,17 @@ export default function Error(
           Oops Something went wrong
         </h2>
 
-        <p className="text-zinc-500 max-w-md">
-         Try to Sign In or Create a new Account 
+        <p className="">
+         Here are list of ways to fix the issue
         </p>
+
+         <nav>
+          <ol className="border border-gray-100 shadow-sm p-8 flex flex-col gap-5">
+           <li className="p-2  text-md text-black/60">  1 : Try signing in to an account or creating a new account</li>
+           <li className="p-2  text-md text-black/60"> 2 : Make sure you&apos;ve taken at least a test to get acess to result hsitory (recommended)</li>
+            <li className="p-2 text-md text-black/60 "> 3 : Click the retry button for a refresh</li>
+          </ol>
+         </nav>
 
         <button
           onClick={() => {

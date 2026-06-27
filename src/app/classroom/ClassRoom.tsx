@@ -1,15 +1,8 @@
 "use client"
 import ClassroomLayout from "../components/classShell"
 import { useParams } from "next/navigation"
-type Props = {
-  classroom : string        
-}
-type PageProps = {
-  params : Promise<Props>      
-}
-function ClassRoom({params}:PageProps) {
+function ClassRoom() {
   const urlParams = useParams();
-// const name = subjectTopics[subjectTopic].find((t) => t.title === subjectTopic)
  const subjectName = (urlParams?.room as string) ?? "Study Subject" 
   return (
    <ClassroomLayout>

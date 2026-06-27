@@ -6,10 +6,7 @@ import {Toaster} from "sonner";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title:{
-    default :"PrepMate",
-    template : "%s | PrepMate"
-  },
+    title : "Prepmate",
   description: "Level up your learning experience",
 };
 

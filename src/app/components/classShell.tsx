@@ -128,10 +128,6 @@ function Sidebar({
 }
 // Done button
 function ToggleButton({topics , activeTopic , OnToggle}:{topics:{id:string , done:boolean}[] , activeTopic:string , OnToggle:(id:string) => void}){
-//  const [done , setDone] = useState(false) 
- /* 
- Once I update the object property then I'll update it's UI state
- */
  const currentTopic = topics.find((t) => t.id === activeTopic);
  if(!currentTopic) return null;
  return(

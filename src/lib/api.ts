@@ -46,6 +46,9 @@ export const api = {
       method: "POST",
       body: JSON.stringify({ subject, score, total }),
     }),
-  getResult: () => request("/result"),
+  getResult: () => request("/result" , {
+    method : "GET",
+    credentials : "include"
+  }),
   me: () => request("/me"),
 };

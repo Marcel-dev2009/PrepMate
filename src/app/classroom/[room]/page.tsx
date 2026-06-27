@@ -2,20 +2,22 @@
 import { Metadata } from "next";
 import ClassRoom from "../ClassRoom";
 type Props = {
-  classroom : string        
-};
-type PageProps = {
-   params : Promise<Props>       
+  params : Promise<{room : string}>
 }
-export async function generateMetadata({params}:PageProps):Promise<Metadata>{
- const resolvedParams = await params
- return {
-   title : `${decodeURIComponent(resolvedParams.classroom)}`       
- }         
+export const generateMetadata = async ({params}:Props):Promise<Metadata> => {
+ const subject = (await params).room
+/*  const title = await new Promise((resolve) => {
+  setTimeout(() => {
+   resolve(`${subject}`)
+  },100)
+ }) */
+ return{
+  title : `Prepmate Classroom | ${subject}`
+ }
 }
-async function ClassPage({params}:PageProps) {
+async function ClassPage(){
   return(
-    <ClassRoom params={params}/>
+    <ClassRoom/>
   )        
 }
 export default ClassPage;
